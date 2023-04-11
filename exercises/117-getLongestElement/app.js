@@ -8,7 +8,14 @@ function getLongestElement(arr) {
         newArr.push(arr[i].length)
         
     } 
-    return arr.sort()[newArr.length -1]
+
+    for (const key in newArr) {
+        if ((key - (key + 1)) ) {
+            const element = object[key];
+            
+        }
+    }
+    return Math.max(...newArr)
 }
 let output = getLongestElement(['one', 'two', 'three']);
 console.log(output); // --> 'three'
