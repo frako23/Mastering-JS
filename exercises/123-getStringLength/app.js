@@ -1,9 +1,9 @@
 function getStringLength(string) {
     // your code here
-    for (let i = 0; i < array.length; i++) {
-        const element = array[i];
+    let a = string.length;
+    return a
         
-    }
+    
 }
 
 let output = getStringLength('hello');
